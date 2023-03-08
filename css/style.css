@@ -1,0 +1,39 @@
+/*!
+  * Bootstrap v5.3.0-alpha1 (https://getbootstrap.com/)
+  * Copyright 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+body{
+    background-image: url(../assets/floating-islands.webp);
+    background-size: cover;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    background: whitesmoke;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.bloc-1{
+    width: 400px;
+    background: rgba(48, 46, 46, 0.699);
+    color: white;
+    margin: 8px auto;
+    padding: 12px 20px;
+}
+.bloc-1 ul{
+    list-style: none;
+    text-decoration: none;
+}
+.bloc-2{
+    width: 800px;
+    background: white;
+    color: black;
+    margin: 8px auto;
+    padding: 12px 20px;
+}
