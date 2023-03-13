@@ -12,19 +12,16 @@
     <div class="container">
         <div class="bloc-1">
             <div class="coordonnees">
-                <p>
-                    <a href="mailto:bondongamichel@gmail.com">bondongamichel@gmail.com</a>
-                </p>
-                <p>
-                    33 rue Carême Prenant<br>
-                    22ans<br>
-                    Permis B<br>
-                    Véhicule personnel<br>
-                    Argenteuil<br>
-                    <i class="fa-solid fa-phone">0784780157</i>
-                    <i class="bi bi-telephone-fill"></i>
-                    
-                </p>
+                <h2>Coordonnées</h2>
+                <ul>
+                    <li><a href="mailto:bondongamichel@gmail.com">bondongamichel@gmail.com</a></li>
+                    <li>33 rue Carême Prenant</li>
+                    <li>22ans</li>
+                    <li>Permis B</li>
+                    <li>Véhicule personnel</li>
+                    <li>Argenteuil</li>
+                    <li>0784780157</li>
+                </ul>
             </div>
             <div class="langue">
                 <h2>Langues</h2>
@@ -33,18 +30,24 @@
             </div>
             <div class="centre-interet">
                 <h2>Centres d'intérêt</h2>
-                <p>
-                    <h4>Tennis de table</h4>
-                    J'ai pratiqué durant 4 années (3ème départemental de l'Hérault).
+                <ul>
+                    <li>
+                        <h4>Tennis de table</h4>
+                        J'ai pratiqué durant 4 années (3ème départemental de l'Hérault).
+                     </li>
                 </p>
                 <p>
-                    <h4>Football</h4>
-                    Je pratiques depuis l'âge de 10 ans.
+                    <li> 
+                        <h4>Football</h4>
+                        Je pratiques depuis l'âge de 10 ans.
+                    </li>
                 </p>
                 <p>
-                    <h4>Athlétisme</h4>
-                    J'ai pratiqué durant 4 années (3ème départemental de l'Hérault).
-                </p>
+                    <li>
+                        <h4>Athlétisme</h4>
+                        J'ai pratiqué durant 4 années (3ème départemental de l'Hérault).
+                   </li>
+                </ul>
             </div>
             <div>
                 <h2>Réseaux sociaux</h2>
@@ -56,7 +59,7 @@
             <div class="formulaire">
                 <fieldset>
                     <legend>Contact</legend>
-                    <form action="contact.php" method="post"><br>
+                    <form action="contact.php" method="post" enctype="multipart/form-data"><br>
                     <label for="entreprise">Entreprise</label><br>
                     <input type="text" name="entreprise" id="entreprise"><br>
                     <label for="name">Nom</label><br>
@@ -68,15 +71,19 @@
                     <label for="tel">Téléphone</label><br>
                     <input type="tel" name="tel" id="tel"><br>
                     <label for="message">Message</label><br>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>  
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Télécharger un fichier</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>  
                     <input type="submit" value="Envoyer">
                     </form>
                 </fieldset>
             </div>
         </div>
         <div class="bloc-2">
-            <h1>Michel-Marie Bondonga</h1>
-            <h2>Recherche stage dans le développement web</h2>
+            <h1 id="titre-1">Michel-Marie Bondonga</h1>
+            <h2 id="titre-2">Recherche stage dans le développement web</h2>
             <div class="motivation">
                 <p>
                     Pourquoi ? Afin de découvrir les aspects du métier de développeur web, de consolider mon idée de projet professionnel dans cette voie et acquérir de nouvelles compétences. Je suis motivé, persévérant et réactif. Au cours de ma précédente formation, j'ai pu développer des compétences solides en matière de langages informatiques. Je suis convaincu que mon parcours académique et mes compétences professionnelles font de moi un candidat idéal. . 
@@ -141,7 +148,7 @@
             <div class="informatique">
                 <h2>Informatique</h2>
                 <ul>
-                    <li>T
+                    <li>
                         <h5>Traiter l'information (collecter, classer et mettre a jour)</h5>
                         <progress id="progress" max="100" value="70"></progress>
                     </li>

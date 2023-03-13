@@ -30,10 +30,77 @@ a{
     list-style: none;
     text-decoration: none;
 }
+.coordonnees{
+    margin: 8px auto;
+    padding: 12px 2px;
+    font-size: 100%;
+    text-align: start;
+}
 .bloc-2{
     width: 800px;
     background: white;
     color: black;
     margin: 8px auto;
     padding: 12px 20px;
+}
+.formulaire{
+    width: 100%;
+}
+.formulaire form{
+    width: 50%;
+    
+}
+.formulaire fieldset{
+    margin: 8px auto;
+    padding: 12px 20px
+}
+.formulaire textarea{
+    width: 200%;
+}
+#formFile{
+    width: 130%;
+}
+@media  screen and (max-width: 399px){
+    .container{
+        width: 500%;
+    }
+ 
+    .bloc-1{
+        width: 50%;
+    }
+    .bloc-2{
+        width: 40%;
+    }
+
+}
+@media  screen and (max-width: 599px){
+    .container{
+        width: 100%;
+    }
+ 
+    .bloc-1{
+        width: 50%;
+    }
+    .bloc-2{
+        width: 50%;
+    }
+    .formulaire{
+        width: 100%;
+    }
+    .formulaire input{
+        width: 200%;
+    }
+    .informatique progress{
+        width: 100%;
+    }
+    .langue progress{
+        width: 100%;
+    }
+    #formFile{
+        width: 200%;
+    } 
+    #titre-1{
+        font-size: 150%;
+    }
+
 }
