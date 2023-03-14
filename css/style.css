@@ -78,82 +78,16 @@ body{
 .formulaire label{
     text-shadow: 2px 2px 2px black;
 }
+.coordonnees{
+    margin: 8px auto;
+    padding: 12px 2px;
+    font-size: 100%;
+    text-align: start;
+}
 .bloc-2{
     width: 800px;
     background: white;
     color: black;
     margin: 8px auto;
     padding: 12px 20px;
-}
-.bloc-2 h2{
-    font-size: clamp(1rem, 4vw, 2rem);
-}
-.bloc-2 p{
-    font-size: clamp(1rem, 2vw, 1rem);
-}
-#titre-1{
-    text-shadow: 1px 1px 2px black;
-    text-align: center;
-}
-.motivation{
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-@keyframes slidein{
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-    to{
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-.profil ul {
-    list-style: none;
-}
-.informatique ul{
-    list-style: none;
-}
-footer p{
-    text-align: center;
-    color: black;
-}
-@media (max-width: 499px) {
-    .container{
-        width: 100%;
-        background: yellow;
-    }
- 
-    .bloc-1{
-        width: 50%;
-        background: greenyellow;
-        font-size: 75%;
-    }
-    .bloc-2{
-        width: 50%;
-        background: lightblue;
-    }
-    .formulaire{
-        width: 100%;
-    }
-    .formulaire form{
-        width: 100%;
-    }
-    .formulaire input{
-        width: 100%;
-    }
-    .informatique progress{
-        width: 100%;
-    }
-    .langue progress{
-        width: 100%;
-    }
-    #formFile{
-        width: 200%;
-    } 
-    #titre-1{
-        font-size: 150%;
-    }
-    
 }
