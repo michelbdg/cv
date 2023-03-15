@@ -4,18 +4,19 @@
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 body{
-    background-image: url(../assets/floating-islands.webp);
+    background-image: url(../assets/img/floating-islands.webp);
     background-size: cover;
 }
+/*Partie 0*/
 .container{
     margin: 0 auto;
     background: whitesmoke;
     width: 1200px;
-    height: 1799px;
     display: flex;
     justify-content: space-around;
     box-shadow: 5px 5px 10px black;
 }
+/*Partie 1*/
 .bloc-1{
     width: 400px;
     background: rgba(48, 46, 46, 0.699);
@@ -25,6 +26,10 @@ body{
 }
 .coordonnees ul {
     list-style: none;
+}
+#mail{
+    font-size: 110%;
+    text-shadow: 1px 2px 5px white;
 }
 .coordonnees a{
     text-decoration: none;
@@ -61,8 +66,11 @@ body{
     border: 1px solid white;
     box-shadow: 1px 1px  1px black;
 }
+#formFileSm{
+    width: 50%;
+}
 #submit{
-    width: 40%;
+    width: 70%;
     background: #4662C7;
     border: 1px solid black;
     box-shadow: 2px 1px  1px black;
@@ -81,13 +89,90 @@ body{
 .coordonnees{
     margin: 8px auto;
     padding: 12px 2px;
-    font-size: 100%;
-    text-align: start;
+    font-size:  clamp(1rem, 2vw, 1rem);
 }
+/*Partie 2*/
 .bloc-2{
     width: 800px;
     background: white;
     color: black;
     margin: 8px auto;
     padding: 12px 20px;
+}
+#titre-1{
+    text-shadow: 1px 1px 2px black;
+    text-align: start;
+}
+.bloc-2 h2{
+    font-size: clamp(1rem, 4vw, 2rem);
+}
+.bloc-2 p{
+    font-size: clamp(1rem, 2vw, 1rem);
+}
+h4{
+    font-size: 100%;
+}
+.motivation{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.profil ul {
+    list-style: none;
+}
+.informatique ul{
+    list-style: none;
+}
+footer p{
+    text-align: center;
+    color: black;
+}
+@media (max-width: 499px) {
+    .container{
+        width: 100%;
+    }
+    .bloc-1{
+        width: 50%;
+        font-size: 75%;
+    }
+    #mail{
+        background: orangered;
+        font-size: 2vw;
+    }
+    .bloc-2{
+        width: 55%;
+    }
+    .formulaire{
+        width: 100%;
+    }
+    .formulaire form{
+        width: 100%;
+    }
+    .formulaire input{
+        width: 100%;
+    }
+    .form-control{
+        width: 10%;
+    }
+    .informatique progress{
+        width: 100%;
+    }
+    .langue progress{
+        width: 100%;
+    }
+    #formFileSm{
+        width: 50%;
+    }
+    #titre-1{
+        font-size: 150%;
+    }
 }
