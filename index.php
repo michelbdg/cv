@@ -96,7 +96,7 @@
         </div>
         <div class="bloc-2">
             <h1 id="titre-1">Michel-Marie Bondonga</h1>
-            <h2>Recherche stage dans le développement web</h2>
+            <h2>Développeur full stack</h2>
             <h2 id="titre-2">Recherche stage dans le développement web</h2>
             <div class="motivation">
                 <p>
