@@ -145,8 +145,7 @@ footer p{
         font-size: 75%;
     }
     #mail{
-        background: orangered;
-        font-size: 2vw;
+        font-size: 100%;
     }
     .bloc-2{
         width: 55%;
