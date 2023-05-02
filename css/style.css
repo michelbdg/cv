@@ -6,7 +6,6 @@
 body{
     background-image: url(../assets/floating-islands.webp);
     background-size: cover;
-    list-style: none;
 }
 a{
     text-decoration: none;
@@ -36,4 +35,74 @@ a{
     color: black;
     margin: 8px auto;
     padding: 12px 20px;
+}
+.informatique{
+    display: flex;
+    width: 200px;
+    padding: 25px 0;
+    border-radius: 8px;
+    background: transparent;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+/* Html & Css */
+.circular-progress{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#000 3.6deg,#ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+.text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #606060;
+}
+/* JavaScript */
+.circular-progress2{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#000 3.6deg,#ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress2::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.progress-value2{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+.text2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #606060;
 }
