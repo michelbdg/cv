@@ -28,8 +28,12 @@ body{
     list-style: none;
 }
 #mail{
-    font-size: 110%;
+    font-size: 15px;
     text-shadow: 1px 2px 5px white;
+}
+#mail:hover{
+    color: #000;
+    transition: 2s;
 }
 .coordonnees a{
     text-decoration: none;
@@ -211,6 +215,7 @@ footer p{
     font-weight: 500;
     color: #606060;
 }
+
 /* JavaScript */
 .circular-progress2{
     position: relative;
@@ -237,6 +242,159 @@ footer p{
     color: #000;
 }
 .text2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #606060;
+}
+
+/* Git */
+.circular-progress3{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#000 3.6deg,#ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress3::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.progress-value3{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+.text3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #606060;
+}
+
+/* Boostrap */
+.circular-progress4{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#000 3.6deg,#ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress4::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.progress-value4{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+.text4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #606060;
+}
+/* PHP */
+.circular-progress5{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#000 3.6deg,#ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress5::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.progress-value5{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+.text5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #606060;
+}
+/* React */
+.circular-progress6{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#000 3.6deg,#ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress6::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.progress-value6{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+.text6{
+    font-size: 20px;
+    font-weight: 500;
+    color: #606060;
+}
+
+/* Symphony */
+.circular-progress7{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#000 3.6deg,#ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress7::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.progress-value7{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+.text7{
     font-size: 20px;
     font-weight: 500;
     color: #606060;
