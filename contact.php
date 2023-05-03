@@ -7,6 +7,7 @@
     $tel = htmlspecialchars($_POST["tel"]);
     $message = htmlspecialchars($_POST["message"]);
 
+    echo "Bonjour ". $entreprise . " Votre demande a été envoyer vous allez être recontacté ultérieusement !";
 
     $monfichier = fopen('contact.txt', 'a+');
     fputs($monfichier, "========================\n");

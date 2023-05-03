@@ -4,20 +4,19 @@
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 body{
-    background-image: url(../assets/floating-islands.webp);
+    background-image: url(../assets/img/floating-islands.webp);
     background-size: cover;
 }
-a{
-    text-decoration: none;
-}
-
+/*Partie 0*/
 .container{
     margin: 0 auto;
     background: whitesmoke;
     width: 1200px;
     display: flex;
     justify-content: space-around;
+    box-shadow: 5px 5px 10px black;
 }
+/*Partie 1*/
 .bloc-1{
     width: 400px;
     background: rgba(48, 46, 46, 0.699);
@@ -25,10 +24,74 @@ a{
     margin: 8px auto;
     padding: 12px 20px;
 }
-.bloc-1 ul{
+.coordonnees ul {
     list-style: none;
-    text-decoration: none;
 }
+#mail{
+    font-size: 110%;
+    text-shadow: 1px 2px 5px white;
+}
+.coordonnees a{
+    text-decoration: none;
+    color: white;
+}
+.centre-interet ul{
+    list-style: none;
+}
+.reseau ul {
+    list-style: none;
+    
+}
+.reseau a{
+    text-decoration: none;
+    color: white;
+}
+.formulaire {
+    border: 1px solid black;
+    margin: 8px auto;
+    padding: 12px 20px;
+    
+}
+.formulaire input{
+    background: whitesmoke;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid white;
+    box-shadow: 2px 1px  1px black;
+}
+.formulaire textarea{
+    background: whitesmoke;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid white;
+    box-shadow: 1px 1px  1px black;
+}
+#formFileSm{
+    width: 50%;
+}
+#submit{
+    width: 70%;
+    background: #4662C7;
+    border: 1px solid black;
+    box-shadow: 2px 1px  1px black;
+    transition: 1s;
+}
+#submit:hover{
+    background: black;
+    color: white;
+    border:2px 1px  1px white;
+    box-shadow: 2px 1px  1px white;
+    
+}
+.formulaire label{
+    text-shadow: 2px 2px 2px black;
+}
+.coordonnees{
+    margin: 8px auto;
+    padding: 12px 2px;
+    font-size:  clamp(1rem, 2vw, 1rem);
+}
+/*Partie 2*/
 .bloc-2{
     width: 800px;
     background: white;
@@ -36,73 +99,80 @@ a{
     margin: 8px auto;
     padding: 12px 20px;
 }
-.informatique{
-    display: flex;
-    width: 200px;
-    padding: 25px 0;
-    border-radius: 8px;
-    background: transparent;
-    row-gap: 30px;
-    flex-direction: column;
-    align-items: center;
+
+#titre-1{
+    text-shadow: 1px 1px 2px black;
+    text-align: start;
 }
-/* Html & Css */
-.circular-progress{
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background: conic-gradient(#000 3.6deg,#ededed 0deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.bloc-2 h2{
+    font-size: clamp(1rem, 4vw, 2rem);
 }
-.circular-progress::before{
-    content: "";
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background: #fff;
+.bloc-2 p{
+    font-size: clamp(1rem, 2vw, 1rem);
 }
-.progress-value{
-    position: relative;
-    font-size: 30px;
-    font-weight: 600;
-    color: #000;
+h4{
+    font-size: 100%;
 }
-.text{
-    font-size: 20px;
-    font-weight: 500;
-    color: #606060;
+.motivation{
+    animation-duration: 3s;
+    animation-name: slidein;
 }
-/* JavaScript */
-.circular-progress2{
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background: conic-gradient(#000 3.6deg,#ededed 0deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
 }
-.circular-progress2::before{
-    content: "";
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background: #fff;
+.profil ul {
+    list-style: none;
 }
-.progress-value2{
-    position: relative;
-    font-size: 30px;
-    font-weight: 600;
-    color: #000;
+.informatique ul{
+    list-style: none;
 }
-.text2{
-    font-size: 20px;
-    font-weight: 500;
-    color: #606060;
+footer p{
+    text-align: center;
+    color: black;
+}
+@media (max-width: 499px) {
+    .container{
+        width: 100%;
+    }
+    .bloc-1{
+        width: 50%;
+        font-size: 75%;
+    }
+    #mail{
+        font-size: 100%;
+    }
+    .bloc-2{
+        width: 55%;
+    }
+    .formulaire{
+        width: 100%;
+    }
+    .formulaire form{
+        width: 100%;
+    }
+    .formulaire input{
+        width: 100%;
+    }
+    .form-control{
+        width: 10%;
+    }
+    .informatique progress{
+        width: 100%;
+    }
+    .langue progress{
+        width: 100%;
+    }
+    #formFileSm{
+        width: 50%;
+    }
+    #titre-1{
+        font-size: 150%;
+    }
 }
